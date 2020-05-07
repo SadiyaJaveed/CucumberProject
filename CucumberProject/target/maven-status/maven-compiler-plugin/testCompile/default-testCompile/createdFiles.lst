@@ -1,0 +1,7 @@
+com\Test\Steps\LoginSteps.class
+com\Test\Steps\RegisterSteps.class
+com\Test\Runners\RegisterRunner.class
+com\Test\Hooks\GenericHook.class
+com\Test\Runners\SearchRunner.class
+com\Test\Steps\SearchHotelSteps.class
+com\Test\Runners\LoginRunner.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Test.Runners.SearchRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.955 s - in com.Test.Runners.SearchRunner

@@ -1,0 +1,352 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 826132900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the PHP travels website",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_navigate_to_the_PHP_travels_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5392045900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the My Account link",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_click_on_the_My_Account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1384962200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the Login link",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.click_on_the_login_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-07T09:23:43.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8187642300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Navigate to Login",
+        "description": "    Test to verify that user is able to navigate to Login Page from Home Page",
+        "id": "validate-the-login-functionality-of-php-travels-user-for-positive-and-negative-scenarios;navigate-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 792959700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 511382100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I must land in the login page",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_must_land_in_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 608487500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the PHP travels website",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_navigate_to_the_PHP_travels_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4456830300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the My Account link",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_click_on_the_My_Account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1559815700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the Login link",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.click_on_the_login_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-07T09:24:00.936Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5378432600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Successful Login",
+        "description": "    Test to verify that user is able to successfully login to the application",
+        "id": "validate-the-login-functionality-of-php-travels-user-for-positive-and-negative-scenarios;successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 736813700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 994271600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the login details",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_enter_the_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2085334200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on the Login button",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378137000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I must land in the account page",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_must_land_in_the_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 850915100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the PHP travels website",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_navigate_to_the_PHP_travels_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4561082300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the My Account link",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_click_on_the_My_Account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1300926600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the Login link",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.click_on_the_login_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-07T09:24:17.148Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5416241900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Unsuccessful Login",
+        "description": "    Test to verify that user is not able to login to the application with incorrect details",
+        "id": "validate-the-login-functionality-of-php-travels-user-for-positive-and-negative-scenarios;unsuccessful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 733821000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 360819100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter the incorrect login details",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_enter_the_incorrect_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96321800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on Login button",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1148284900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I must receive an error",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_must_receive_an_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Login functionality of PHP Travels User for positive and negative scenarios",
+    "description": "",
+    "id": "validate-the-login-functionality-of-php-travels-user-for-positive-and-negative-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Test/Features/Login.feature",
+    "tags": []
+  }
+]

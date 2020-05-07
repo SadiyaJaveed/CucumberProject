@@ -1,0 +1,17 @@
+com\Project\Framework\Browsers\CustomChromeDriver.class
+com\Project\Framework\Services\DriverService.class
+com\Project\Framework\Pages\HotelResultPage.class
+com\Project\Framework\Utilities\IReader.class
+com\Project\Framework\Utilities\ResourceUtility.class
+com\Project\Framework\Factory\PageName.class
+com\Project\Framework\Browsers\CustomEdgeDriver.class
+com\Project\Framework\Pages\LoginPage.class
+com\Project\Framework\Factory\BasePage.class
+com\Project\Framework\Factory\CustomFactory.class
+com\Project\Framework\Pages\RegisterPage.class
+com\Project\Framework\Utilities\ReadConfigFile.class
+com\Project\Framework\Pages\AccountPage.class
+com\Project\Framework\Helpers\ScreenshotHelper.class
+com\Project\Framework\Browsers\CustomFirefoxDriver.class
+com\Project\Framework\Factory\CustomFactory$1.class
+com\Project\Framework\Pages\HomePage.class

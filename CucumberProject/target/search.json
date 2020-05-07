@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-07T09:23:43.794Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8437527700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful Search",
+        "description": "    Test to validate that user is displayed with search results for hotel search",
+        "id": "validate-the-hotel-search-functionality-of-php-travels-user;successful-search",
+        "after": [
+          {
+            "result": {
+              "duration": 792337800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Test.Hooks.GenericHook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 675927700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the PHP travels website",
+            "match": {
+              "location": "com.Test.Steps.LoginSteps.i_navigate_to_the_PHP_travels_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8441949400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the following details for hotel search",
+            "match": {
+              "location": "com.Test.Steps.SearchHotelSteps.i_enter_the_following_details_for_hotel_search(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Destination",
+                  "Checkin",
+                  "Checkout",
+                  "Adults",
+                  "Child"
+                ]
+              },
+              {
+                "cells": [
+                  "london",
+                  "05-05-2020",
+                  "07-05-2020",
+                  "2",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3653606200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on the search button",
+            "match": {
+              "location": "com.Test.Steps.SearchHotelSteps.click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608923400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I must be displayed with the search results",
+            "match": {
+              "location": "com.Test.Steps.SearchHotelSteps.i_must_be_displayed_with_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Hotel search functionality of PHP Travels User",
+    "description": "",
+    "id": "validate-the-hotel-search-functionality-of-php-travels-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Test/Features/SearchHotels.feature",
+    "tags": []
+  }
+]
