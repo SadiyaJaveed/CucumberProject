@@ -46,6 +46,7 @@ public class DriverService {
 	
 	private void launchBrowser() {
 		reader = new ReadConfigFile();
+		reader.setBrowserType();
 		
 		driver = getBrowserDriver();
 		driver.manage().window().maximize();

@@ -7,5 +7,6 @@ public interface IReader {
 	public String getUsername();
 	public String getPassword();
 	public int getExplicitWait();
+	public void setBrowserType();   //this is to set the browsertype during runtime without modifting config.properties
 	
 }

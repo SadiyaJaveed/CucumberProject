@@ -69,4 +69,11 @@ public class ReadConfigFile implements IReader{
 		return Integer.parseInt(properties.getProperty("ExplicitWait"));
 	}
 
+	@Override
+	public void setBrowserType() {
+		// create the user-defined system property
+		String browserName = System.getProperty("BrowserType");
+		properties.setProperty("BrowserName", browserName);	
+	}
+
 }
