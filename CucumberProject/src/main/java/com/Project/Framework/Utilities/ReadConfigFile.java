@@ -72,8 +72,8 @@ public class ReadConfigFile implements IReader{
 	@Override
 	public void setBrowserType() {
 		// create the user-defined system property
-		String browserName = System.getProperty("BrowserType");
-		properties.setProperty("BrowserName", browserName);	
+		String browserName = System.getProperty("BrowserName");
+		properties.setProperty("BrowserType", browserName);	
 	}
 
 }

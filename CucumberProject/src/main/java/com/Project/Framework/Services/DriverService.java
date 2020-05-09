@@ -50,8 +50,7 @@ public class DriverService {
 		
 		driver = getBrowserDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(reader.getExplicitWait(), TimeUnit.SECONDS);	
-		//driver.manage().timeouts().implicitlyWait(reader.getExplicitWait(), TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(reader.getExplicitWait(), TimeUnit.SECONDS);
 		
 		screenshotHelper = ScreenshotHelper.getInstance(driver);
 	}
