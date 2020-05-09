@@ -162,11 +162,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration>
-					<systemPropertyVariables>
-						<FeatureName>${feature.name}</FeatureName>
-						<TagName>${tag.name}</TagName>
-						<BrowserType>${browser.name}</BrowserType>
-					</systemPropertyVariables>
 					<forkCount>4</forkCount>
 					<reuseForks>false</reuseForks>
 					<testFailureIgnore>true</testFailureIgnore>
